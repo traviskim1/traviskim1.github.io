@@ -78,6 +78,7 @@ Set each project's `description`. On powerlifting projects, set `reflections` an
 - Fiction project `url`: activates its card directly to the literary publication.
 - Navy Selvedge Jeans `videoUrl`: paste a YouTube watch, short, share, or embed URL. Supported URLs become the featured embedded video. The video stays before the gallery.
 - Project `supportingUrl` / `supportingLabel`: fabric/vendor links shown after the gallery and description.
+- Links marked with a `↗` leave the site, so they open in a new tab. In-site navigation does not.
 
 ## Design and source files
 

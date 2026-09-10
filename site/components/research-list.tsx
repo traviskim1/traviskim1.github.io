@@ -9,7 +9,7 @@ import { research, researchDates } from '@/lib/content';
 type ResearchLink = { label: string; url: string; description: string };
 // A link either leaves the page or explains the project in place, so the blurb opens on hover as well as on click.
 function ResearchLink({ link }: { link: ResearchLink }) {
-  return link.url ? <a className="small-link" href={link.url}>{link.label}{'\u00a0'}<span aria-hidden="true">↗</span></a> : <Popover><PopoverTrigger openOnHover delay={150} closeDelay={200} className="small-link blurb-trigger">{link.label}</PopoverTrigger><PopoverContent side="bottom" align="start" sideOffset={10} className="blurb-popup"><PopoverTitle className="sr-only">{link.label}</PopoverTitle><p><RichText text={link.description} /></p></PopoverContent></Popover>;
+  return link.url ? <a className="small-link" href={link.url} target="_blank" rel="noopener noreferrer">{link.label}{'\u00a0'}<span aria-hidden="true">↗</span></a> : <Popover><PopoverTrigger openOnHover delay={150} closeDelay={200} className="small-link blurb-trigger">{link.label}</PopoverTrigger><PopoverContent side="bottom" align="start" sideOffset={10} className="blurb-popup"><PopoverTitle className="sr-only">{link.label}</PopoverTitle><p><RichText text={link.description} /></p></PopoverContent></Popover>;
 }
 // The note and the links share one wrapping row, separated by dots so they read as one line wherever there is room.
 function ResearchFooter({ note, links }: { note: boolean; links: ResearchLink[] }) {
