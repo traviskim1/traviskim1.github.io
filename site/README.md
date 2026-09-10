@@ -69,7 +69,7 @@ Set each project's `description`. On powerlifting projects, set `reflections` an
 - `cvUrl`: your Google Drive URL. Both CV links then open it directly.
 - `email`: your email address, without `mailto:`.
 - `profiles`: replace the pending entry with objects containing your chosen `label` and `url`.
-- Research `url`: a paper/project destination. Keep voice-clone research `status` as `Ongoing` until ready; its biography link activates only when both `status` is `Published` and `url` is supplied.
+- Research `url`: a paper/project destination. The biography's middle `[here]` points at the Research page itself, so it does not wait on any entry being published.
 - Research `status`: exactly `Published` or `Ongoing`; filters follow this value.
 - Research `coverFit`: leave empty for logo covers, which sit padded inside a 3/2 grey frame. Set `full` for a wide screenshot: the frame follows the art edge to edge instead of banding it with grey.
 - Research `start` / `end`: `YYYY-MM` months shown as a date line under the title. Leave `end` empty while the work is ongoing and the range renders open (`January 2026 –`). Entries are ordered by `start`, earliest first; entries sharing a month keep their order in the file.
