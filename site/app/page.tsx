@@ -4,6 +4,7 @@ import { Media } from '@/components/media';
 import { Mail, FileText } from 'lucide-react';
 import { Fragment } from 'react';
 import { PendingLink } from '@/components/site-header';
+import { NewsNote } from '@/components/news-note';
 function LinkedBio({ text }: { text: string }) {
   const pattern = new RegExp('(' + site.biographyLinks.map(link => link.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'g');
   return text.split(pattern).map((part, index) => {
@@ -11,10 +12,15 @@ function LinkedBio({ text }: { text: string }) {
     return link ? <a key={index} href={link.url}>{part}</a> : <Fragment key={index}>{part}</Fragment>;
   });
 }
+// A news line can carry two marked phrases: the one that links out, and the one that footnotes itself on hover.
 function NewsText({ item }: { item: (typeof site.news)[number] }) {
-  const start = item.text.indexOf(item.linkText);
-  if (!item.linkText || start === -1) return <>{item.text}</>;
-  return <>{item.text.slice(0, start)}{item.url ? <a className="news-highlight" href={item.url}><strong>{item.linkText}</strong></a> : <strong className="news-highlight" title="Publication link coming soon">{item.linkText}</strong>}{item.text.slice(start + item.linkText.length)}</>;
+  const marks = [item.linkText, item.hoverText].filter(Boolean).map(mark => mark.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  if (!marks.length) return <>{item.text}</>;
+  return <>{item.text.split(new RegExp(`(${marks.join('|')})`, 'g')).map((part, index) => {
+    if (part && part === item.linkText) return item.url ? <a key={index} className="news-highlight" href={item.url}><strong>{part}</strong></a> : <strong key={index} className="news-highlight" title="Publication link coming soon">{part}</strong>;
+    if (part && part === item.hoverText) return <NewsNote key={index} label={part} note={item.hoverNote} />;
+    return <Fragment key={index}>{part}</Fragment>;
+  })}</>;
 }
 export default function Home() {
   const [bio, cvText, paperText, sewingText] = site.biography.split('[here]');

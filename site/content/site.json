@@ -16,37 +16,57 @@
       "date": "September 2026",
       "text": "Accepted as a Research Fellow at SPAR Research for project Alignment without Personas mentored by Matthew Khoriaty.",
       "url": "https://sparai.org/projects/f26/rec5lzq8haUmA56sY/#mentor-matthew-khoriaty",
-      "linkText": "Alignment without Personas"
+      "linkText": "Alignment without Personas",
+      "hoverText": "",
+      "hoverNote": ""
     },
     {
       "date": "July 2026",
       "text": "Received a $4,000 Summer Undergraduate Research Grant to write a short sci-fi novella.",
       "url": "https://docs.google.com/document/d/1bTVOOXH_dA5z2c9nflhJ2EqUFR8raLbEyQpHTSd9FLo/edit?usp=sharing",
-      "linkText": "sci-fi novella"
+      "linkText": "sci-fi novella",
+      "hoverText": "",
+      "hoverNote": ""
     },
     {
       "date": "May 2026",
-      "text": "Presented AI-speech detection research at Northwestern's Undergraduate Research Symposium and at the CSD Undergrad Research Day.",
+      "text": "Presented voice clone detection research at Northwestern's Undergraduate Research Symposium and at the CSD Undergrad Research Day.",
       "url": "https://docs.google.com/presentation/d/1GfcCJUKYp9LWI8Xo9CU-4FIldnBiT1-X/edit?slide=id.p1#slide=id.p1",
-      "linkText": "AI-speech detection research"
+      "linkText": "voice clone detection research",
+      "hoverText": "",
+      "hoverNote": ""
     },
     {
       "date": "May 2026",
-      "text": "Short story “Old Delivery” published in Helicon Literary Magazine's Spring 2026 issue.",
+      "text": "Published short story “Old Delivery” in Helicon Literary Magazine's Spring 2026 issue.",
       "url": "",
-      "linkText": "Old Delivery"
+      "linkText": "Old Delivery",
+      "hoverText": "",
+      "hoverNote": ""
+    },
+    {
+      "date": "April 2026",
+      "text": "Received a Cognitive Science Summer Undergraduate Research Fellowship for a voice clone detection study, $4,000.",
+      "url": "https://docs.google.com/document/d/1tUb0FEtYWQ2zBUmIeyxIu6D2LbTTg6-7idnqiv6eBlM/edit?usp=sharing",
+      "linkText": "voice clone detection study",
+      "hoverText": "$4,000",
+      "hoverNote": "Was unable to accept because I was also awarded the SURG."
     },
     {
       "date": "April 2026",
       "text": "Placed 14th at Powerlifting America Collegiate Nationals.",
       "url": "https://www.openpowerlifting.org/u/traviskim",
-      "linkText": "Powerlifting America Collegiate Nationals"
+      "linkText": "Powerlifting America Collegiate Nationals",
+      "hoverText": "",
+      "hoverNote": ""
     },
     {
       "date": "March 2026",
-      "text": "Short story “Confetti” published in Helicon Literary Magazine's Winter 2026 issue.",
+      "text": "Published short story “Confetti” in Helicon Literary Magazine's Winter 2026 issue.",
       "url": "",
-      "linkText": "Confetti"
+      "linkText": "Confetti",
+      "hoverText": "",
+      "hoverNote": ""
     }
   ],
   "research": [
@@ -7809,22 +7829,22 @@
     {
       "category": "Sewing",
       "phrase": "designing and sewing clothes",
-      "blurb": "I have been sewing since 2024, focusing on jeans. Since then, I have made around ten pairs for friends and myself. I use the Bernette b37 sewing machine."
+      "blurb": "I have been sewing since 2024, focusing mostly on jeans. Since then, I have made around ten pairs for my friends and self. My machine is the Bernette b37."
     },
     {
       "category": "Photography",
       "phrase": "taking photos",
-      "blurb": "I use my camera most on hikes and in nature, though I take it most places I go. I shoot mostly on a Panasonic Lumix S5 with either the Pentax Super Takumar 50mm f/1.4 lens or the Sigma 24-70mm f/2.8 DG DN II Art Lens."
+      "blurb": "I mostly take photos for fun on hikes and with friends, though I occasionally shoot freelance events. I primarily use a Panasonic Lumix S5 with either the Pentax Super Takumar 50mm f/1.4 lens or the Sigma 24-70mm f/2.8 DG DN II Art Lens."
     },
     {
       "category": "Fiction",
       "phrase": "reading and writing fiction",
-      "blurb": "Some of my favorite authors are Morrison, Faulkner, Ishiguro, McCarthy, Woolf, and Dostoevsky. My favorite book is *As I Lay Dying* by Faulkner. You can find my goodreads [here](https://www.goodreads.com/user/show/165804766-travis-kim) and some of my short story publications below."
+      "blurb": "Some of my favorite authors are Morrison, Faulkner, Ishiguro, McCarthy, Woolf, and Dostoevsky. My favorite book is *As I Lay Dying* by Faulkner. You can see my book reviews and what I'm currently reading [here](https://www.goodreads.com/user/show/165804766-travis-kim) and some of my short story publications below."
     },
     {
       "category": "Powerlifting",
       "phrase": "powerlifting",
-      "blurb": "I've been competing in powerlifting since 2023. I am coached by [Sean Collins](https://www.sincerepl.com/our-team-v2). A significant achievement is that I was a [national champion](https://www.openpowerlifting.org/u/traviskim) in 2024. I am the founder and president of [Northwestern University's Barbell Club](https://www.instagram.com/northwesternbarbell/)."
+      "blurb": "I've been competing in powerlifting since 2023. I am coached by [Sean Collins](https://www.sincerepl.com/our-team-v2). A significant achievement: I was [national champion](https://www.openpowerlifting.org/u/traviskim) in 2024. I am also the founder and president of [Northwestern University's Barbell Club](https://www.instagram.com/northwesternbarbell/)."
     }
   ],
   "iconCredit": "[Voice bot](https://www.flaticon.com/free-icons/voice-bot) and [cyborg](https://www.flaticon.com/free-icons/neuro) icons from Magnific"
