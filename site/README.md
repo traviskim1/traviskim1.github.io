@@ -69,8 +69,11 @@ Set each project's `description`. On powerlifting projects, set `reflections` an
 - `cvUrl`: your Google Drive URL. Both CV links then open it directly.
 - `email`: your email address, without `mailto:`.
 - `profiles`: replace the pending entry with objects containing your chosen `label` and `url`.
-- Research `url`: a paper/project destination. Keep voice-clone research `status` as `In Progress` until ready; its biography link activates only when both `status` is `Published` and `url` is supplied.
-- Research `status`: exactly `Published` or `In Progress`; filters follow this value.
+- Research `url`: a paper/project destination. Keep voice-clone research `status` as `Ongoing` until ready; its biography link activates only when both `status` is `Published` and `url` is supplied.
+- Research `status`: exactly `Published` or `Ongoing`; filters follow this value.
+- Research `coverFit`: leave empty for logo covers, which sit padded inside a 3/2 grey frame. Set `full` for a wide screenshot: the frame follows the art edge to edge instead of banding it with grey.
+- Research `start` / `end`: `YYYY-MM` months shown as a date line under the title. Leave `end` empty while the work is ongoing and the range renders open (`January 2026 –`). Entries are ordered by `start`, earliest first; entries sharing a month keep their order in the file.
+- Research `links`: extra links shown under an entry, each with `label`, `url`, and `description`. An entry with a `url` opens that destination; an entry with only a `description` shows the text in a hover/click popover instead of navigating. `description` accepts inline `[text](url)` links and `*italics*`.
 - `news[].url`: fill the missing Helicon destinations when available. `news[].linkText` specifies the exact phrase to show in bold accent color and link; the rest of the announcement remains plain text. Missing URLs keep the phrase emphasized but inactive. The supplied news array is displayed in order.
 - Fiction project `url`: activates its card directly to the literary publication.
 - Navy Selvedge Jeans `videoUrl`: paste a YouTube watch, short, share, or embed URL. Supported URLs become the featured embedded video. The video stays before the gallery.

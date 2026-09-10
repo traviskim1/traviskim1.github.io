@@ -53,7 +53,9 @@
     {
       "id": "voice-clones",
       "title": "Humans can learn to detect AI voice clones",
-      "status": "In Progress",
+      "status": "Ongoing",
+      "start": "2026-01",
+      "end": "",
       "authors": [
         "Casey L. Roark",
         "Travis Kim",
@@ -63,42 +65,88 @@
       ],
       "credit": "",
       "image": "/media/research/voice-clones-e490f25e.webp",
+      "coverFit": "",
       "description": "",
       "url": "",
-      "linkLabel": ""
+      "linkLabel": "",
+      "links": [
+        {
+          "label": "Research poster",
+          "url": "https://docs.google.com/presentation/d/1GfcCJUKYp9LWI8Xo9CU-4FIldnBiT1-X/edit?slide=id.p1#slide=id.p1",
+          "description": ""
+        },
+        {
+          "label": "Project description",
+          "url": "",
+          "description": "Abstract: Recent advancements have led to improvements in artificially generated voice clones increasingly indistinguishable from human speech. Motivated by the present and growing threat of AI voice fraud, we seek to determine whether humans can be taught to detect voice clones. In two online studies, human listeners (N = 480) identified whether voices were human or AI-generated (N = 221,776 total decisions). Using a rigorous pre-post design, we examined listener performance before and after brief (~20 minute) feedback-based training. Training successfully improved people’s ability to detect AI voices and improvements generalized to untrained voices. We replicated these effects in a second experiment and investigated the individual differences that predict better AI detection ability. Accounting for other variables, those with better speech categorization consistency – a stable trait-level measure of stability of speech representations – were better at detecting AI and had larger improvements after training. Together, these results reframe AI voice clone detection as a learnable speech-specific expertise."
+        }
+      ]
+    },
+    {
+      "id": "ci-sound-quality",
+      "title": "Cochlear Implant Sound Quality Matching",
+      "status": "Ongoing",
+      "start": "2026-05",
+      "end": "",
+      "authors": [],
+      "credit": "In collaboration with Stephen Dennison, Katelyn Berg, and Michael Dorman.",
+      "image": "/media/research/ci-sound-quality-3b74dc09.webp",
+      "coverFit": "full",
+      "description": "",
+      "url": "https://cisoundquality.vercel.app/",
+      "linkLabel": "See website",
+      "links": [
+        {
+          "label": "Project description",
+          "url": "",
+          "description": "Cochlear implant (CI) patients with one non-CI ear and one-CI ear are uniquely able to match the perceived sound quality from their CI ear by applying filters to the sound perceived in their non-CI ear. This project is in collaboration with Stephen Dennison, Katelyn Berg, and Michael Dorman, expanding on [Dennison et al., 2026](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1798569/full) to create a more streamlined, intuitive process for CI matching with a software that can run on any web browser. A broader goal of this project is to identify perceptual links between adjectives of sound quality and modifications of acoustic effects and filters."
+        }
+      ]
     },
     {
       "id": "dialectical-activities",
       "title": "Computer Supported Dialectical Activities",
-      "status": "In Progress",
+      "status": "Ongoing",
+      "start": "2026-09",
+      "end": "",
       "authors": [],
       "credit": "Design, Technology, Research (DTR) @ Northwestern.",
       "image": "/media/research/dialectical-activities-443e7270.webp",
+      "coverFit": "",
       "description": "",
       "url": "https://dtr.northwestern.edu/projects/recxexfDLxOOiFAKc",
-      "linkLabel": ""
+      "linkLabel": "",
+      "links": []
     },
     {
       "id": "alignment-without-personas",
       "title": "Alignment Without Personas",
-      "status": "In Progress",
+      "status": "Ongoing",
+      "start": "2026-09",
+      "end": "",
       "authors": [],
       "credit": "SPAR Research mentored by Matthew Khoriaty",
       "image": "/media/research/alignment-without-personas-8a0cf1b0.webp",
+      "coverFit": "",
       "description": "",
       "url": "https://sparai.org/projects/f26/rec5lzq8haUmA56sY/#mentor-matthew-khoriaty",
-      "linkLabel": ""
+      "linkLabel": "",
+      "links": []
     },
     {
       "id": "blurring-cyborgs",
       "title": "Blurring Cyborgs",
-      "status": "In Progress",
+      "status": "Ongoing",
+      "start": "2026-07",
+      "end": "",
       "authors": [],
       "credit": "Creative writing project supported by Northwestern's Office of Undergraduate Research and mentored by Professor Michelle Huang.",
       "image": "/media/research/blurring-cyborgs-e4165094.webp",
+      "coverFit": "",
       "description": "",
       "url": "https://docs.google.com/document/d/1bTVOOXH_dA5z2c9nflhJ2EqUFR8raLbEyQpHTSd9FLo/edit?usp=sharing",
-      "linkLabel": "Project proposal"
+      "linkLabel": "Project proposal",
+      "links": []
     }
   ],
   "projects": [

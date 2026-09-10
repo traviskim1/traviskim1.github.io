@@ -10,6 +10,10 @@ const photoStamp = (photo: Photo) => {
 const byDate = (photos: Photo[]) => photos.map((photo, index) => ({ photo, index, stamp: photoStamp(photo) })).sort((a, b) => (a.stamp && b.stamp ? a.stamp.localeCompare(b.stamp) : b.stamp.length - a.stamp.length) || a.index - b.index).map(entry => entry.photo);
 export const projects = ([...data.projects] as Project[]).sort((a, b) => b.date.localeCompare(a.date)).map(project => project.category === 'Photography' ? { ...project, photos: byDate(project.photos) } : project);
 export const projectDate = (date: string) => new Intl.DateTimeFormat('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' }).format(new Date(`${date}-01T00:00:00Z`));
+// Research reads as a run sheet: earliest start first, ties keeping the order they were authored in.
+export const research = [...data.research].sort((a, b) => a.start.localeCompare(b.start));
+// An empty `end` means the work is still going, so the range is left open rather than guessing at "Present".
+export const researchDates = (item: { start: string; end: string }) => item.start ? `${projectDate(item.start)} –${item.end ? ` ${projectDate(item.end)}` : ''}` : '';
 // A source file named cover.* is the deliberate choice; otherwise fall back to the stored cover, then the first frame.
 export const projectCover = (project: Project) => {
   const photo = project.photos.find(p => (p.filename || '').toLowerCase().startsWith('cover')) || project.photos.find(p => p.src === project.cover) || project.photos[0];
