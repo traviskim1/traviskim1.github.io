@@ -6,8 +6,11 @@
     "node": ">=22.13.0"
   },
   "scripts": {
+    "predev": "node scripts/sync-cv.mjs",
     "dev": "vinext dev",
+    "prebuild": "node scripts/sync-cv.mjs",
     "build": "vinext build && node scripts/package-static.mjs",
+    "sync-cv": "node scripts/sync-cv.mjs",
     "start": "node scripts/preview.mjs",
     "lint": "oxlint",
     "format": "oxfmt",

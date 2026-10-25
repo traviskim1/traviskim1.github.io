@@ -1,6 +1,6 @@
 {
   "name": "Travis Kim",
-  "biography": "Hello! I am a sophomore at Northwestern University pursuing a B.A. in Philosophy and Cognitive Science with a minor in Computer Science. I am a Research Assistant for Professor Bharath Chandrasekaran and Dr. Zhe-chen Guo in the SoundBrain Lab, a Research Fellow at SPAR Research mentored by Matthew Khoriaty, and a Student Researcher for Professor Haoqi Zhang in Design, Technology, and Research at Northwestern. I am also writing a sci-fi novella funded by Northwestern's Office of Undergraduate Research and mentored by Professor Michelle Huang. My technical research interests are in the ways people and neural networks interact, specifically in the domains of speech perception, LLM alignment, and human-AI collaboration. My philosophical interests concern the rigid framing of people and modern compute as essentially separate beings despite their many imbrications, at times delving into AI safety, drawing on posthuman theory, Asian American literature, and some virtue ethics. You can find my resume [here], ongoing research [here], and a sewing project [here].",
+  "biography": "Hello! I am a sophomore at Northwestern University pursuing a B.A. in Philosophy and Cognitive Science with a minor in Computer Science. I am a Research Assistant for Professor Bharath Chandrasekaran and Dr. Zhe-chen Guo in the SoundBrain Lab, a Research Fellow at SPAR Research mentored by Matthew Khoriaty, and a Student Researcher for Professor Haoqi Zhang in Design, Technology, and Research at Northwestern. I also wrote a sci-fi novella funded by Northwestern's Office of Undergraduate Research and mentored by Professor Michelle Huang. My technical research interests are in the ways people and neural networks interact, specifically in the domains of speech perception, LLM alignment, and human-AI collaboration. My philosophical interests concern the rigid framing of people and modern compute as essentially separate beings despite their many imbrications, at times delving into AI safety, drawing on posthuman theory, Asian American literature, and some virtue ethics. You can find my resume [here], ongoing research [here], and a sewing project [here].",
   "portrait": "/media/portrait/travis-kim-04765524.webp",
   "portraitAlt": "Portrait of Travis Kim",
   "email": "traviskim2029@u.northwestern.edu",
@@ -10,8 +10,16 @@
       "url": "https://www.linkedin.com/in/travis-kimm/"
     }
   ],
-  "cvUrl": "https://docs.google.com/document/d/1KAc6QWl3pljSfu5Vx96GpTBX9IGLxpao3SkMrxkXC5I/edit?usp=sharing",
+  "cvUrl": "/Travis-Kim-CV.pdf",
   "news": [
+    {
+      "date": "October 2026",
+      "text": "Accepted as a facilitator at the Mercial AI Safety Initiative for an LLM behavioral evaluation study.",
+      "url": "/research/#mercial",
+      "linkText": "Mercial AI Safety Initiative",
+      "hoverText": "",
+      "hoverNote": ""
+    },
     {
       "date": "September 2026",
       "text": "Accepted as a Research Fellow at SPAR Research for project Alignment without Personas mentored by Matthew Khoriaty.",
@@ -38,7 +46,7 @@
     },
     {
       "date": "May 2026",
-      "text": "Published short story “Old Delivery” in Helicon Literary Magazine's Spring 2026 issue.",
+      "text": "Short story “Old Delivery” forthcoming in Helicon Literary Magazine's Spring 2026 issue.",
       "url": "",
       "linkText": "Old Delivery",
       "hoverText": "",
@@ -63,7 +71,7 @@
     {
       "date": "March 2026",
       "text": "Published short story “Confetti” in Helicon Literary Magazine's Winter 2026 issue.",
-      "url": "",
+      "url": "https://helicon.northwestern.edu/confetti/",
       "linkText": "Confetti",
       "hoverText": "",
       "hoverNote": ""
@@ -119,7 +127,17 @@
         {
           "label": "Project description",
           "url": "",
-          "description": "Cochlear implant (CI) patients with one non-CI ear and one-CI ear are uniquely able to match the perceived sound quality from their CI ear by applying filters to the sound perceived in their non-CI ear. This project is in collaboration with Stephen Dennison, Katelyn Berg, and Michael Dorman, expanding on [Dennison et al., 2026](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1798569/full) to create a more streamlined, intuitive process for CI matching with a software that can run on any web browser. A broader goal of this project is to identify perceptual links between adjectives of sound quality and modifications of acoustic effects and filters."
+          "description": "Cochlear implant (CI) patients with one CI ear and one non-CI ear are uniquely able to match the sound quality of their implant: hearing the same recording in both ears, they apply filters to the sound in their non-CI ear until it resembles what they hear through the CI. This project, in collaboration with Stephen Dennison, Katelyn Berg, and Michael Dorman, expands on [Dennison et al., 2026](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1798569/full) to make CI matching more streamlined and intuitive.\n\nThe original procedure ran on chains of audio plugins in the digital audio workstation REAPER. I rebuilt those chains as a web app that runs in any browser, with fine-grained control over each filter and robust save states, cutting a matching session from three hours to one. A broader goal of the project is to identify perceptual links between adjectives of sound quality and modifications of acoustic effects and filters."
+        },
+        {
+          "label": "Perception study",
+          "url": "",
+          "description": "A behavioral experiment exploring how listeners describe filter manipulations on recorded speech, toward the project's goal of linking the words people use for sound quality to specific acoustic changes. The study is designed to reach about 100 participants."
+        },
+        {
+          "label": "Validation study",
+          "url": "",
+          "description": "An online study that validates the matching procedure with normal-hearing listeners. In place of a CI ear, one ear hears a target recording that has already been filtered, and the listener uses the same matching tool to recreate that sound in the other ear, testing whether the method can reliably reproduce a known sound."
         }
       ]
     },
@@ -135,8 +153,14 @@
       "coverFit": "",
       "description": "",
       "url": "https://dtr.northwestern.edu/projects/recxexfDLxOOiFAKc",
-      "linkLabel": "",
-      "links": []
+      "linkLabel": "DTR project page",
+      "links": [
+        {
+          "label": "Project description",
+          "url": "",
+          "description": "Dialectical Search is an LLM-based coaching prototype that helps people engage with a new activity. It reframes computer-supported activity support: instead of offering short-term advice, it suggests user-specific, long-term engagement strategies, grounded in Talbot Brewer's account of dialectical activities and Agnes Callard's theory of proleptic reasons. I developed and implemented the project's theoretical framework, and prepared the IRB protocol and an Undergraduate Research Grant proposal for a multi-week human-subjects study that will support 25 people in taking up new activities with it."
+        }
+      ]
     },
     {
       "id": "alignment-without-personas",
@@ -150,15 +174,21 @@
       "coverFit": "",
       "description": "",
       "url": "https://sparai.org/projects/f26/rec5lzq8haUmA56sY/#mentor-matthew-khoriaty",
-      "linkLabel": "",
-      "links": []
+      "linkLabel": "SPAR project page",
+      "links": [
+        {
+          "label": "Project description",
+          "url": "",
+          "description": "We are building an empirical framework for measuring power (an agent's ability to achieve a wide variety of actions) that holds up across many agentic LLM tasks and environments. The project targets long-horizon misalignment, with the theory of change that reinforcement learning (RL) against swings and impact will lead to a meek, misalignment-avoidant model."
+        }
+      ]
     },
     {
       "id": "blurring-cyborgs",
       "title": "Blurring Cyborgs",
-      "status": "Ongoing",
+      "status": "Completed",
       "start": "2026-07",
-      "end": "",
+      "end": "2026-09",
       "authors": [],
       "credit": "Creative writing project supported by Northwestern's Office of Undergraduate Research and mentored by Professor Michelle Huang.",
       "image": "/media/research/blurring-cyborgs-e4165094.webp",
@@ -167,6 +197,27 @@
       "url": "https://docs.google.com/document/d/1bTVOOXH_dA5z2c9nflhJ2EqUFR8raLbEyQpHTSd9FLo/edit?usp=sharing",
       "linkLabel": "Project proposal",
       "links": []
+    },
+    {
+      "id": "mercial",
+      "title": "Mercial AI Safety Initiative",
+      "status": "Ongoing",
+      "start": "2026-10",
+      "end": "",
+      "authors": [],
+      "credit": "Facilitator for an LLM behavioral evaluation study with three researchers.",
+      "image": "",
+      "coverFit": "",
+      "description": "",
+      "url": "",
+      "linkLabel": "",
+      "links": [
+        {
+          "label": "Project description",
+          "url": "",
+          "description": "I facilitate an LLM behavioral evaluation study for three researchers. The study aims to create a tractable metric for scoring long-horizon agentic evaluation suites across many models, so that psychometric latent-variable analysis can test for generalizable characteristics of alignment and challenge top-down alignment assumptions such as Anthropic's helpful, honest, and harmless (HHH) framework."
+        }
+      ]
     }
   ],
   "projects": [
@@ -432,7 +483,8 @@
       "date": "2026-09",
       "location": "",
       "recap": "",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "blackened-blue-denim",
@@ -628,7 +680,8 @@
       "date": "2026-09",
       "location": "",
       "recap": "",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "hickory-selvedge-denim",
@@ -890,7 +943,8 @@
       "date": "2025-08",
       "location": "",
       "recap": "",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "selvedge-wabash-denim",
@@ -1164,7 +1218,8 @@
       "date": "2025-08",
       "location": "",
       "recap": "",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "2026-selects",
@@ -2437,7 +2492,8 @@
       "date": "2026-12",
       "location": "",
       "recap": "",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "2025-selects",
@@ -6089,7 +6145,8 @@
       "date": "2025-12",
       "location": "",
       "recap": "",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "old-delivery",
@@ -6110,7 +6167,8 @@
       "date": "2026-05",
       "location": "",
       "recap": "",
-      "storySource": "Fiction/Old Delivery/Old Delivery.docx"
+      "storySource": "Fiction/Old Delivery/Old Delivery.docx",
+      "forthcoming": true
     },
     {
       "slug": "confetti",
@@ -6120,7 +6178,7 @@
       "cover": "/media/confetti/cover-b9c17b66.webp",
       "description": "",
       "photos": [],
-      "url": "",
+      "url": "https://helicon.northwestern.edu/confetti/",
       "supportingUrl": "",
       "supportingLabel": "",
       "videoUrl": "",
@@ -6131,7 +6189,8 @@
       "date": "2026-03",
       "location": "",
       "recap": "",
-      "storySource": "Fiction/Confetti/Confetti.docx"
+      "storySource": "Fiction/Confetti/Confetti.docx",
+      "forthcoming": false
     },
     {
       "slug": "collegiate-nationals-2026",
@@ -6410,7 +6469,8 @@
       "date": "2026-04",
       "location": "Salt Lake City, UT",
       "recap": "14th place · 692.5 kg / 1526.7 lbs total · 93 kg / 205 lbs weight class.",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "high-school-nationals-2025",
@@ -6612,7 +6672,8 @@
       "date": "2025-04",
       "location": "Milwaukee, WI",
       "recap": "5th place · 625 kg / 1378 lbs total · 83 kg / 183 lbs weight class.",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "raw-nationals-2024",
@@ -6845,7 +6906,8 @@
       "date": "2024-09",
       "location": "Salt Lake City, UT",
       "recap": "1st place · 645 kg / 1422 lbs total · 90 kg / 198 lbs weight class · Ages 16–17.",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     },
     {
       "slug": "2024-selects",
@@ -7807,7 +7869,8 @@
       "date": "2024-12",
       "location": "",
       "recap": "",
-      "storySource": ""
+      "storySource": "",
+      "forthcoming": false
     }
   ],
   "emailDisplay": "traviskim2029 [at] u [dot] northwestern [dot] edu",

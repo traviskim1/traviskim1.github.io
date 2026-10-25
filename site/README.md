@@ -66,16 +66,17 @@ Set each project's `description`. On powerlifting projects, set `reflections` an
 
 ### Links and video
 
-- `cvUrl`: your Google Drive URL. Both CV links then open it directly.
+- `cvUrl`: the CV link, `/Travis-Kim-CV.pdf`. All three CV links open it. The file is `resume_cv/cv.pdf`, copied into `public/` by `scripts/sync-cv.mjs`, which runs before `npm run dev`, before `npm run build`, and on every commit (the `.githooks/pre-commit` hook; a fresh clone needs `git config core.hooksPath .githooks`). GitHub Pages builds from this repo alone, so the copy is committed: to publish a new CV, commit and push (or run `npm run sync-cv` first to check it). A half-written PDF from a compile in progress is refused rather than copied.
 - `email`: your email address, without `mailto:`.
 - `profiles`: replace the pending entry with objects containing your chosen `label` and `url`.
 - Research `url`: a paper/project destination. The biography's middle `[here]` points at the Research page itself, so it does not wait on any entry being published.
-- Research `status`: exactly `Published` or `Ongoing`; filters follow this value.
+- Research `status`: exactly `Published`, `Ongoing`, or `Completed`. The Published and Ongoing filters follow this value; Completed entries appear under All.
 - Research `coverFit`: leave empty for logo covers, which sit padded inside a 3/2 grey frame. Set `full` for a wide screenshot: the frame follows the art edge to edge instead of banding it with grey.
 - Research `start` / `end`: `YYYY-MM` months shown as a date line under the title. Leave `end` empty while the work is ongoing and the range renders open (`January 2026 –`). Entries are ordered by `start`, earliest first; entries sharing a month keep their order in the file.
 - Research `links`: extra links shown under an entry, each with `label`, `url`, and `description`. An entry with a `url` opens that destination; an entry with only a `description` shows the text in a hover/click popover instead of navigating. `description` accepts inline `[text](url)` links and `*italics*`.
 - `news[].url`: fill the missing Helicon destinations when available. `news[].linkText` specifies the exact phrase to show in bold accent color and link; the rest of the announcement remains plain text. Missing URLs keep the phrase emphasized but inactive. The supplied news array is displayed in order.
 - Fiction project `url`: activates its card directly to the literary publication.
+- Fiction project `forthcoming`: `true` makes the story page read "Forthcoming in" instead of "Published in".
 - Navy Selvedge Jeans `videoUrl`: paste a YouTube watch, short, share, or embed URL. Supported URLs become the featured embedded video. The video stays before the gallery.
 - Project `supportingUrl` / `supportingLabel`: fabric/vendor links shown after the gallery and description.
 - Links marked with a `↗` leave the site, so they open in a new tab. In-site navigation does not.

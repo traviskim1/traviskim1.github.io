@@ -1,0 +1,6 @@
+#!/bin/sh
+# Every commit carries the current resume_cv/cv.pdf, so a push publishes the latest CV.
+command -v node >/dev/null 2>&1 || exit 0
+cd "$(git rev-parse --show-toplevel)/site" || exit 0
+node scripts/sync-cv.mjs || exit 1
+git add public/Travis-Kim-CV.pdf
