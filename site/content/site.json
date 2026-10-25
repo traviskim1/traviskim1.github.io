@@ -108,7 +108,8 @@
           "url": "",
           "description": "Abstract: Recent advancements have led to improvements in artificially generated voice clones increasingly indistinguishable from human speech. Motivated by the present and growing threat of AI voice fraud, we seek to determine whether humans can be taught to detect voice clones. In two online studies, human listeners (N = 480) identified whether voices were human or AI-generated (N = 221,776 total decisions). Using a rigorous pre-post design, we examined listener performance before and after brief (~20 minute) feedback-based training. Training successfully improved people’s ability to detect AI voices and improvements generalized to untrained voices. We replicated these effects in a second experiment and investigated the individual differences that predict better AI detection ability. Accounting for other variables, those with better speech categorization consistency – a stable trait-level measure of stability of speech representations – were better at detecting AI and had larger improvements after training. Together, these results reframe AI voice clone detection as a learnable speech-specific expertise."
         }
-      ]
+      ],
+      "forthcoming": true
     },
     {
       "id": "ci-sound-quality",
@@ -127,19 +128,10 @@
         {
           "label": "Project description",
           "url": "",
-          "description": "Cochlear implant (CI) patients with one CI ear and one non-CI ear are uniquely able to match the sound quality of their implant: hearing the same recording in both ears, they apply filters to the sound in their non-CI ear until it resembles what they hear through the CI. This project, in collaboration with Stephen Dennison, Katelyn Berg, and Michael Dorman, expands on [Dennison et al., 2026](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1798569/full) to make CI matching more streamlined and intuitive.\n\nThe original procedure ran on chains of audio plugins in the digital audio workstation REAPER. I rebuilt those chains as a web app that runs in any browser, with fine-grained control over each filter and robust save states, cutting a matching session from three hours to one. A broader goal of the project is to identify perceptual links between adjectives of sound quality and modifications of acoustic effects and filters."
-        },
-        {
-          "label": "Perception study",
-          "url": "",
-          "description": "A behavioral experiment exploring how listeners describe filter manipulations on recorded speech, toward the project's goal of linking the words people use for sound quality to specific acoustic changes. The study is designed to reach about 100 participants."
-        },
-        {
-          "label": "Validation study",
-          "url": "",
-          "description": "An online study that validates the matching procedure with normal-hearing listeners. In place of a CI ear, one ear hears a target recording that has already been filtered, and the listener uses the same matching tool to recreate that sound in the other ear, testing whether the method can reliably reproduce a known sound."
+          "description": "Cochlear implant (CI) patients with one non-CI ear and one-CI ear are uniquely able to match the perceived sound quality from their CI ear by applying filters to the sound perceived in their non-CI ear. This project is in collaboration with Stephen Dennison, Katelyn Berg, and Michael Dorman, expanding on [Dennison et al., 2026](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1798569/full) to create a more streamlined, intuitive process for CI matching with a software that can run on any web browser. A broader goal of this project is to identify perceptual links between adjectives of sound quality and modifications of acoustic effects and filters."
         }
-      ]
+      ],
+      "forthcoming": false
     },
     {
       "id": "dialectical-activities",
@@ -152,15 +144,16 @@
       "image": "/media/research/dialectical-activities-443e7270.webp",
       "coverFit": "",
       "description": "",
-      "url": "https://dtr.northwestern.edu/projects/recxexfDLxOOiFAKc",
+      "url": "https://dtr.northwestern.edu/projects/rec18jMqQo3WL9gr3",
       "linkLabel": "DTR project page",
       "links": [
         {
           "label": "Project description",
           "url": "",
-          "description": "Dialectical Search is an LLM-based coaching prototype that helps people engage with a new activity. It reframes computer-supported activity support: instead of offering short-term advice, it suggests user-specific, long-term engagement strategies, grounded in Talbot Brewer's account of dialectical activities and Agnes Callard's theory of proleptic reasons. I developed and implemented the project's theoretical framework, and prepared the IRB protocol and an Undergraduate Research Grant proposal for a multi-week human-subjects study that will support 25 people in taking up new activities with it."
+          "description": "People who have been doing an activity for years find greater value in that activity than beginners because their experience has taught them to engage in that activity in complex and unapparent ways. For example, a painter might deeply appreciate the slightest brush-stroke on the side of a bird, for they have spent many hours painting such brushstrokes, while that same splotch of paint might go unnoticed by a newer painter. On the other hand, beginners are more likely to be exposed to only a few aspects of an activity. This project seeks to support beginners to expansively participate in any activity, finding value not only in the most obvious joys, but in all the little, hidden ones too. The theory of change is a dialectical search process which models and supports the beginner's potential for expansive activity appreciation while challenging their limiting beliefs."
         }
-      ]
+      ],
+      "forthcoming": false
     },
     {
       "id": "alignment-without-personas",
@@ -181,7 +174,8 @@
           "url": "",
           "description": "We are building an empirical framework for measuring power (an agent's ability to achieve a wide variety of actions) that holds up across many agentic LLM tasks and environments. The project targets long-horizon misalignment, with the theory of change that reinforcement learning (RL) against swings and impact will lead to a meek, misalignment-avoidant model."
         }
-      ]
+      ],
+      "forthcoming": false
     },
     {
       "id": "blurring-cyborgs",
@@ -196,7 +190,8 @@
       "description": "",
       "url": "https://docs.google.com/document/d/1bTVOOXH_dA5z2c9nflhJ2EqUFR8raLbEyQpHTSd9FLo/edit?usp=sharing",
       "linkLabel": "Project proposal",
-      "links": []
+      "links": [],
+      "forthcoming": false
     },
     {
       "id": "mercial",
@@ -217,7 +212,8 @@
           "url": "",
           "description": "I facilitate an LLM behavioral evaluation study for three researchers. The study aims to create a tractable metric for scoring long-horizon agentic evaluation suites across many models, so that psychometric latent-variable analysis can test for generalizable characteristics of alignment and challenge top-down alignment assumptions such as Anthropic's helpful, honest, and harmless (HHH) framework."
         }
-      ]
+      ],
+      "forthcoming": false
     }
   ],
   "projects": [
