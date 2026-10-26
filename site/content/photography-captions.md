@@ -144,123 +144,249 @@ For each image, supply a short blurb and location where missing. Keep the source
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/3200 · 200
 - Blurb: Pending
 
-### 021 — montereyseptempber-9.png
+### 021 — montereyseptempber-14.png
+- File: `Photography/2026 Selects/montereyseptempber-14.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-14-230e598d.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/3.5 · 1/800 · 80
+- Blurb: Pending
+
+### 022 — montereyseptempber-2.png
+- File: `Photography/2026 Selects/montereyseptempber-2.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-2-2a549317.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/2.8 · 1/500 · 80
+- Blurb: Pending
+
+### 023 — montereyseptempber-20.png
+- File: `Photography/2026 Selects/montereyseptempber-20.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-20-6fe5b460.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/2.8 · 1/2500 · 125
+- Blurb: Pending
+
+### 024 — montereyseptempber-24.png
+- File: `Photography/2026 Selects/montereyseptempber-24.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-24-1b150f28.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/6400 · 250
+- Blurb: Pending
+
+### 025 — montereyseptempber-41.png
+- File: `Photography/2026 Selects/montereyseptempber-41.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-41-a5cb5435.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/5.6 · 1/200 · 80
+- Blurb: Pending
+
+### 026 — montereyseptempber-44.png
+- File: `Photography/2026 Selects/montereyseptempber-44.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-44-fa85b276.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 26.0 mm · f/4.0 · 1/640 · 100
+- Blurb: Pending
+
+### 027 — montereyseptempber-48.png
+- File: `Photography/2026 Selects/montereyseptempber-48.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-48-2d7b19a7.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 37.0 mm · f/5.0 · 1/160 · 100
+- Blurb: Pending
+
+### 028 — montereyseptempber-56.png
+- File: `Photography/2026 Selects/montereyseptempber-56.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-56-af30d1c0.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 37.0 mm · f/2.8 · 1/2500 · 320
+- Blurb: Pending
+
+### 029 — montereyseptempber-6.png
+- File: `Photography/2026 Selects/montereyseptempber-6.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-6-5bd07869.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/3.5 · 1/1000 · 80
+- Blurb: Pending
+
+### 030 — montereyseptempber-73.png
+- File: `Photography/2026 Selects/montereyseptempber-73.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-73-291e5556.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/3.2 · 1/320 · 160
+- Blurb: Pending
+
+### 031 — montereyseptempber-8.png
+- File: `Photography/2026 Selects/montereyseptempber-8.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-8-e96a2b6f.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/320 · 320
+- Blurb: Pending
+
+### 032 — montereyseptempber-83.png
+- File: `Photography/2026 Selects/montereyseptempber-83.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-83-937ca7e1.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/5.0 · 1/640 · 125
+- Blurb: Pending
+
+### 033 — montereyseptempber-85.png
+- File: `Photography/2026 Selects/montereyseptempber-85.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-85-8ba1cf35.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/5.0 · 1/640 · 125
+- Blurb: Pending
+
+### 034 — montereyseptempber-9.png
 - File: `Photography/2026 Selects/montereyseptempber-9.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-9-e2888ada.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/60 · 640
 - Blurb: Pending
 
-### 022 — montereyseptempber.png
+### 035 — montereyseptempber.png
 - File: `Photography/2026 Selects/montereyseptempber.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-8fc68bb1.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/3.5 · 1/800 · 80
 - Blurb: Pending
 
-### 023 — mttam-149.png
+### 036 — mttam-149.png
 - File: `Photography/2026 Selects/mttam-149.png`
 - Preview: [image](../public/media/2026-selects/mttam-149-3fcd7d88.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II
 - Blurb: Pending
 
-### 024 — mttam-2.png
+### 037 — mttam-2.png
 - File: `Photography/2026 Selects/mttam-2.png`
 - Preview: [image](../public/media/2026-selects/mttam-2-30a9f825.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 32.0 mm · f/2.8 · 1/1000 · 125
 - Blurb: Pending
 
-### 025 — photo1.png
+### 038 — photo1.png
 - File: `Photography/2026 Selects/photo1.png`
 - Preview: [image](../public/media/2026-selects/photo1-a3220043.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II
 - Blurb: Pending
 
-### 026 — photo2.png
+### 039 — photo2.png
 - File: `Photography/2026 Selects/photo2.png`
 - Preview: [image](../public/media/2026-selects/photo2-c460861a.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II
 - Blurb: Pending
 
-### 027 — photo5.png
+### 040 — photo5.png
 - File: `Photography/2026 Selects/photo5.png`
 - Preview: [image](../public/media/2026-selects/photo5-cc4666fb.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II
 - Blurb: Pending
 
-### 028 — phototoo.png
+### 041 — phototoo.png
 - File: `Photography/2026 Selects/phototoo.png`
 - Preview: [image](../public/media/2026-selects/phototoo-5ee03621.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II
 - Blurb: Pending
 
-### 029 — phtoeoee.png
+### 042 — phtoeoee.png
 - File: `Photography/2026 Selects/phtoeoee.png`
 - Preview: [image](../public/media/2026-selects/phtoeoee-81811e17.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II
 - Blurb: Pending
 
-### 030 — sf 8-12-18.png
+### 043 — sf 8-12-18.png
 - File: `Photography/2026 Selects/sf 8-12-18.png`
 - Preview: [image](../public/media/2026-selects/sf-8-12-18-1a2f89ed.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II · 1/1000 · 125
 - Blurb: Pending
 
-### 031 — sf 8-12-28.png
+### 044 — sf 8-12-28.png
 - File: `Photography/2026 Selects/sf 8-12-28.png`
 - Preview: [image](../public/media/2026-selects/sf-8-12-28-030a0690.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 1/640 · 50
 - Blurb: Pending
 
-### 032 — sf 8-12-7.png
+### 045 — sf 8-12-7.png
 - File: `Photography/2026 Selects/sf 8-12-7.png`
 - Preview: [image](../public/media/2026-selects/sf-8-12-7-6739d009.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 1/3200 · 125
 - Blurb: Pending
 
-### 033 — test-2.png
+### 046 — test-2.png
 - File: `Photography/2026 Selects/test-2.png`
 - Preview: [image](../public/media/2026-selects/test-2-2556462d.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 1/4000 · 125
 - Blurb: Pending
 
-### 034 — test-3.png
+### 047 — test-3.png
 - File: `Photography/2026 Selects/test-3.png`
 - Preview: [image](../public/media/2026-selects/test-3-334381a2.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 1/8000 · 320
 - Blurb: Pending
 
-### 035 — Untitled-10.png
+### 048 — Untitled-10.png
 - File: `Photography/2026 Selects/Untitled-10.png`
 - Preview: [image](../public/media/2026-selects/untitled-10-a1053a9f.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 1/1000 · 100
 - Blurb: Pending
 
-### 036 — Untitled-47.png
+### 049 — Untitled-47.png
 - File: `Photography/2026 Selects/Untitled-47.png`
 - Preview: [image](../public/media/2026-selects/untitled-47-fa353d19.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 1/2500 · 100
 - Blurb: Pending
 
-### 037 — Untitled-59.png
+### 050 — Untitled-59.png
 - File: `Photography/2026 Selects/Untitled-59.png`
 - Preview: [image](../public/media/2026-selects/untitled-59-501590a5.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 1/640 · 100
+- Blurb: Pending
+
+### 051 — video-14.png
+- File: `Photography/2026 Selects/video-14.png`
+- Preview: [image](../public/media/2026-selects/video-14-cff7f545.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 1/5000 · 125
+- Blurb: Pending
+
+### 052 — video-16.png
+- File: `Photography/2026 Selects/video-16.png`
+- Preview: [image](../public/media/2026-selects/video-16-ed338db0.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 1/5000 · 125
+- Blurb: Pending
+
+### 053 — video-2.png
+- File: `Photography/2026 Selects/video-2.png`
+- Preview: [image](../public/media/2026-selects/video-2-71d3efe1.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 1/2500 · 125
+- Blurb: Pending
+
+### 054 — video-31.jpeg
+- File: `Photography/2026 Selects/video-31.jpeg`
+- Preview: [image](../public/media/2026-selects/video-31-705b230e.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 1/8000 · 400
+- Blurb: Pending
+
+### 055 — video.png
+- File: `Photography/2026 Selects/video.png`
+- Preview: [image](../public/media/2026-selects/video-eb928170.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 28.0 mm · f/2.8 · 1/2500 · 160
 - Blurb: Pending
 
 ## 2025 Selects
