@@ -160,7 +160,7 @@ a.project-card:hover h2 { text-decoration: underline; text-underline-offset: 4px
 .contact-icons > a:hover { background: #eaf0e7; }
 .contact-icons .pending-link { color: #7b817a; text-decoration: none; }
 
-.contact-icons .resume-icon { color: var(--terracotta); }
+.contact-icons .cv-icon { color: var(--terracotta); }
 .interest-trigger { display: inline; border: 0; border-bottom: 1px dotted var(--category-color); padding: 0; background: transparent; color: var(--category-ink); font: inherit; text-align: left; }
 .interest-trigger:hover, .interest-trigger[data-popup-open] { border-bottom-style: solid; }
 .interest-blurb[data-slot='popover-content'] { width: min(390px, calc(100vw - 36px)); max-height: min(440px, var(--available-height)); overflow-y: auto; padding: 20px 22px; border-top: 3px solid var(--category-color); background: var(--background); color: var(--foreground); font-size: 14px; line-height: 1.8; }
