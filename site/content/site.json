@@ -15,7 +15,7 @@
     {
       "date": "October 2026",
       "text": "Accepted as a facilitator at the Mercial AI Safety Initiative for an LLM behavioral evaluation study.",
-      "url": "/research/#mercial",
+      "url": "https://mercial.uk/fellowship",
       "linkText": "Mercial AI Safety Initiative",
       "hoverText": "",
       "hoverNote": ""
@@ -204,13 +204,13 @@
       "image": "",
       "coverFit": "",
       "description": "",
-      "url": "",
-      "linkLabel": "",
+      "url": "https://mercial.uk/fellowship",
+      "linkLabel": "Mercial fellowship page",
       "links": [
         {
           "label": "Project description",
-          "url": "",
-          "description": "I facilitate an LLM behavioral evaluation study for three researchers. The study aims to create a tractable metric for scoring long-horizon agentic evaluation suites across many models, so that psychometric latent-variable analysis can test for generalizable characteristics of alignment and challenge top-down alignment assumptions such as Anthropic's helpful, honest, and harmless (HHH) framework."
+          "url": "https://docs.google.com/document/d/1GBDyzf3hzxAR5ZJOup512xVwVbu6qJrl/edit",
+          "description": ""
         }
       ],
       "forthcoming": false
