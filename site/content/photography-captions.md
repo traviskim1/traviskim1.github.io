@@ -81,95 +81,95 @@ For each image, supply a short blurb and location where missing. Keep the source
 - Settings: Not embedded
 - Blurb: Pending
 
-### 012 — cover.png
-- File: `Photography/2026 Selects/cover.png`
-- Preview: [image](../public/media/2026-selects/cover-360484c6.webp)
-- Location: Pending
-- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/500 · 50
-- Blurb: Pending
-
-### 013 — der.png
+### 012 — der.png
 - File: `Photography/2026 Selects/der.png`
 - Preview: [image](../public/media/2026-selects/der-a20e01b4.webp)
 - Location: Pending
 - Settings: Not embedded
 - Blurb: Pending
 
-### 014 — ioafwjei.png
+### 013 — ioafwjei.png
 - File: `Photography/2026 Selects/ioafwjei.png`
 - Preview: [image](../public/media/2026-selects/ioafwjei-bd2c7bf9.webp)
 - Location: Pending
 - Settings: Not embedded
 - Blurb: Pending
 
-### 015 — lakefill-37.jpg
+### 014 — lakefill-37.jpg
 - File: `Photography/2026 Selects/lakefill-37.jpg`
 - Preview: [image](../public/media/2026-selects/lakefill-37-f288abef.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/5.0 · 1/100 · 250
 - Blurb: Pending
 
-### 016 — marcodj-098.jpg
+### 015 — marcodj-098.jpg
 - File: `Photography/2026 Selects/marcodj-098.jpg`
 - Preview: [image](../public/media/2026-selects/marcodj-098-84d9e6d0.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/5.0 · 1/320 · 400
 - Blurb: Pending
 
-### 017 — marcodj-103.jpg
+### 016 — marcodj-103.jpg
 - File: `Photography/2026 Selects/marcodj-103.jpg`
 - Preview: [image](../public/media/2026-selects/marcodj-103-756ffc72.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 44.0 mm · f/9.0 · 1/200 · 2500
 - Blurb: Pending
 
-### 018 — marcodj-80.jpg
+### 017 — marcodj-80.jpg
 - File: `Photography/2026 Selects/marcodj-80.jpg`
 - Preview: [image](../public/media/2026-selects/marcodj-80-f4f8bfd8.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/5.6 · 1/1250 · 200
 - Blurb: Pending
 
-### 019 — montereyseptempber-11.png
+### 018 — montereyseptempber-11.png
 - File: `Photography/2026 Selects/montereyseptempber-11.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-11-71fa60c9.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/2.8 · 1/800 · 200
 - Blurb: Pending
 
-### 020 — montereyseptempber-13.png
+### 019 — montereyseptempber-13.png
 - File: `Photography/2026 Selects/montereyseptempber-13.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-13-11ab06e1.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/3200 · 200
 - Blurb: Pending
 
-### 021 — montereyseptempber-14.png
+### 020 — montereyseptempber-14.png
 - File: `Photography/2026 Selects/montereyseptempber-14.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-14-230e598d.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/3.5 · 1/800 · 80
 - Blurb: Pending
 
-### 022 — montereyseptempber-2.png
+### 021 — montereyseptempber-2.png
 - File: `Photography/2026 Selects/montereyseptempber-2.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-2-2a549317.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/2.8 · 1/500 · 80
 - Blurb: Pending
 
-### 023 — montereyseptempber-20.png
+### 022 — montereyseptempber-20.png
 - File: `Photography/2026 Selects/montereyseptempber-20.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-20-6fe5b460.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 70.0 mm · f/2.8 · 1/2500 · 125
 - Blurb: Pending
 
-### 024 — montereyseptempber-24.png
+### 023 — montereyseptempber-24.png
 - File: `Photography/2026 Selects/montereyseptempber-24.png`
 - Preview: [image](../public/media/2026-selects/montereyseptempber-24-1b150f28.webp)
 - Location: Pending
 - Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/6400 · 250
+- Blurb: Pending
+
+### 024 — montereyseptempber-37.png
+- File: `Photography/2026 Selects/montereyseptempber-37.png`
+- Preview: [image](../public/media/2026-selects/montereyseptempber-37-478eeb8e.webp)
+- Location: Pending
+- Settings: Panasonic DC-S5 · 24-70mm F2.8 DG DN II | Art 024 · 24.0 mm · f/2.8 · 1/500 · 50
 - Blurb: Pending
 
 ### 025 — montereyseptempber-41.png

@@ -10,8 +10,9 @@ DATA=ROOT/'content/site.json'
 METADATA=ROOT/'content/media-metadata.json'
 W='{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 IMAGE_TYPES=['.jpg','.jpeg','.png','.webp','.tif','.tiff','.bmp','.gif']
-# Another edit of a frame that is already imported (montereyseptempber-37 is the shot in cover.png), so it would show twice.
-SKIP={'Photography/2026 Selects/montereyseptempber-37.png'}
+# Older edits of frames imported under another name, which would otherwise show twice. cover.png is the frame
+# of montereyseptempber-37 before its brighter edit; the project's stored cover points at -37 instead.
+SKIP={'Photography/2026 Selects/cover.png'}
 def images_in(folder):
  return sorted([f for f in folder.iterdir() if f.suffix.lower() in IMAGE_TYPES],key=lambda f:f.name.lower())
 def import_research_art(f,entry):

@@ -1248,7 +1248,7 @@
       "title": "2026 Selects",
       "category": "Photography",
       "year": 2026,
-      "cover": "/media/2026-selects/cover-360484c6.webp",
+      "cover": "/media/2026-selects/montereyseptempber-37-478eeb8e.webp",
       "description": "",
       "photos": [
         {
@@ -1661,44 +1661,6 @@
             "ImageHeight": "4000"
           },
           "date": "2026-08-03"
-        },
-        {
-          "src": "/media/2026-selects/cover-360484c6.webp",
-          "source": "Photography/2026 Selects/cover.png",
-          "filename": "cover.png",
-          "alt": "2026 Selects — cover.png",
-          "location": "",
-          "camera": "Panasonic DC-S5",
-          "lens": "24-70mm F2.8 DG DN II | Art 024",
-          "focalLength": "24.0 mm",
-          "aperture": "f/2.8",
-          "shutterSpeed": "1/500",
-          "iso": "50",
-          "caption": "",
-          "width": 1800,
-          "height": 1010,
-          "originalWidth": 6000,
-          "originalHeight": 3368,
-          "metadata": {
-            "DateTimeOriginal": "2026:09:06 22:26:49.496-08:00",
-            "CreateDate": "2026:09:06 22:26:49.496-08:00",
-            "Make": "Panasonic",
-            "Model": "DC-S5",
-            "LensModel": "24-70mm F2.8 DG DN II | Art 024",
-            "LensID": "24-70mm F2.8 DG DN II | Art 024",
-            "FocalLength": "24.0 mm",
-            "FocalLengthIn35mmFormat": "25 mm",
-            "FNumber": "2.8",
-            "ExposureTime": "1/500",
-            "ISO": "50",
-            "ExposureProgram": "Manual",
-            "ExposureCompensation": "0",
-            "MeteringMode": "Multi-segment",
-            "Flash": "Off, Did not fire",
-            "WhiteBalance": "As Shot",
-            "ImageWidth": "6000",
-            "ImageHeight": "3368"
-          }
         },
         {
           "src": "/media/2026-selects/der-a20e01b4.webp",
@@ -2136,6 +2098,44 @@
             "WhiteBalance": "Custom",
             "ImageWidth": "5964",
             "ImageHeight": "3348"
+          }
+        },
+        {
+          "src": "/media/2026-selects/montereyseptempber-37-478eeb8e.webp",
+          "source": "Photography/2026 Selects/montereyseptempber-37.png",
+          "filename": "montereyseptempber-37.png",
+          "alt": "2026 Selects — montereyseptempber-37.png",
+          "location": "",
+          "camera": "Panasonic DC-S5",
+          "lens": "24-70mm F2.8 DG DN II | Art 024",
+          "focalLength": "24.0 mm",
+          "aperture": "f/2.8",
+          "shutterSpeed": "1/500",
+          "iso": "50",
+          "caption": "",
+          "width": 1800,
+          "height": 1010,
+          "originalWidth": 6000,
+          "originalHeight": 3368,
+          "metadata": {
+            "DateTimeOriginal": "2026:09:06 22:26:49.496-08:00",
+            "CreateDate": "2026:09:06 22:26:49.496-08:00",
+            "Make": "Panasonic",
+            "Model": "DC-S5",
+            "LensModel": "24-70mm F2.8 DG DN II | Art 024",
+            "LensID": "24-70mm F2.8 DG DN II | Art 024",
+            "FocalLength": "24.0 mm",
+            "FocalLengthIn35mmFormat": "25 mm",
+            "FNumber": "2.8",
+            "ExposureTime": "1/500",
+            "ISO": "50",
+            "ExposureProgram": "Manual",
+            "ExposureCompensation": "0",
+            "MeteringMode": "Multi-segment",
+            "Flash": "Off, Did not fire",
+            "WhiteBalance": "Custom",
+            "ImageWidth": "6000",
+            "ImageHeight": "3368"
           }
         },
         {
