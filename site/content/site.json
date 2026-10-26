@@ -172,7 +172,7 @@
         {
           "label": "Project description",
           "url": "",
-          "description": "We are building an empirical framework for measuring power (an agent's ability to achieve a wide variety of actions) that holds up across many agentic LLM tasks and environments. The project targets long-horizon misalignment, with the theory of change that reinforcement learning (RL) against swings and impact will lead to a meek, misalignment-avoidant model."
+          "description": "We are building an empirical framework for measuring power (an agent's ability to achieve a wide variety of actions) that holds up across many agentic LLM tasks and environments. The project targets long-horizon misalignment, with the theory of change that reinforcement learning (RL) against swings in impact will lead to a meek, misalignment-avoidant model."
         }
       ],
       "forthcoming": false
