@@ -70,10 +70,10 @@ Set each project's `description`. On powerlifting projects, set `reflections` an
 - `email`: your email address, without `mailto:`.
 - `profiles`: replace the pending entry with objects containing your chosen `label` and `url`.
 - Research `url`: a paper/project destination. The biography's middle `[here]` points at the Research page itself, so it does not wait on any entry being published.
-- Research `status`: exactly `Published`, `Ongoing`, or `Completed`. The Published and Ongoing filters follow this value; Completed entries appear under All.
+- Research `status`: exactly `Ongoing` or `Completed`; the Ongoing and Completed filters follow this value.
 - Research `forthcoming`: `true` shows "Publication link forthcoming" under an entry that has no `url` yet; `false` shows nothing in its place.
 - Research `coverFit`: leave empty for logo covers, which sit padded inside a 3/2 grey frame. Set `full` for a wide screenshot: the frame follows the art edge to edge instead of banding it with grey.
-- Research `start` / `end`: `YYYY-MM` months shown as a date line under the title. Leave `end` empty while the work is ongoing and the range renders open (`January 2026 –`). Entries are ordered by `start`, earliest first; entries sharing a month keep their order in the file.
+- Research `start` / `end`: `YYYY-MM` months shown as a date line under the title. Leave `end` empty while the work is ongoing and the range renders open (`January 2026 –`). Entries are ordered by `start`, most recent first, with Completed entries last; entries sharing a month keep their order in the file.
 - Research `links`: extra links shown under an entry, each with `label`, `url`, and `description`. An entry with a `url` opens that destination; an entry with only a `description` shows the text in a hover/click popover instead of navigating. `description` accepts inline `[text](url)` links and `*italics*`.
 - `news[].url`: fill the missing Helicon destinations when available. `news[].linkText` specifies the exact phrase to show in bold accent color and link; the rest of the announcement remains plain text. Missing URLs keep the phrase emphasized but inactive. The supplied news array is displayed in order.
 - Fiction project `url`: activates its card directly to the literary publication.
@@ -109,7 +109,7 @@ Publish only the contents of `dist/client/` when ready, typically through a GitH
 
 ## Validation
 
-Production export and TypeScript checks are run during implementation. DOM-based interaction checks cover research filters and the empty Published state, all project category counts, inactive fiction cards, arrow-key filter focus, and tap/focus/Escape caption behavior. Static output checks cover every local route and referenced asset, supplied text, and pending links. A connected browser is unavailable in this session, so visual desktop/mobile QA remains to be checked in your browser; responsive rules are implemented at 850, 620, and 390 px.
+Production export and TypeScript checks are run during implementation. DOM-based interaction checks cover research filters and the empty Completed state, all project category counts, inactive fiction cards, arrow-key filter focus, and tap/focus/Escape caption behavior. Static output checks cover every local route and referenced asset, supplied text, and pending links. A connected browser is unavailable in this session, so visual desktop/mobile QA remains to be checked in your browser; responsive rules are implemented at 850, 620, and 390 px.
 
 The homepage sewing link carries `?from=home`; both project back arrows return to Home for that entry point. Project cards and direct gallery links default to Personal Interests.
 

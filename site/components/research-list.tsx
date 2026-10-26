@@ -17,11 +17,11 @@ function ResearchFooter({ note, links }: { note: boolean; links: ResearchLink[] 
   return <div className="research-links">{parts.map((part, index) => <Fragment key={index}>{index > 0 && <span className="link-dot" aria-hidden="true">·</span>}{part}</Fragment>)}</div>;
 }
 export default function ResearchList() {
-  return <Tabs defaultValue="All" className="filter-tabs"><TabsList variant="line" className="filters" aria-label="Research status">{['All', 'Published', 'Ongoing'].map(status => <TabsTrigger key={status} value={status} className={status === 'All' ? 'research-filter-all' : status === 'Published' ? 'research-filter-published' : 'research-filter-progress'}>{status}</TabsTrigger>)}</TabsList>{['All', 'Published', 'Ongoing'].map(status => {
+  return <Tabs defaultValue="All" className="filter-tabs"><TabsList variant="line" className="filters" aria-label="Research status">{['All', 'Completed', 'Ongoing'].map(status => <TabsTrigger key={status} value={status} className={status === 'All' ? 'research-filter-all' : status === 'Completed' ? 'research-filter-completed' : 'research-filter-progress'}>{status}</TabsTrigger>)}</TabsList>{['All', 'Completed', 'Ongoing'].map(status => {
     const items = research.filter(item => status === 'All' || item.status === status);
     return <TabsContent key={status} value={status}><div className="research-list">{items.length ? items.map(item => {
       const links: ResearchLink[] = [...(item.url ? [{ label: item.linkLabel || 'Project description', url: item.url, description: '' }] : []), ...item.links];
       return <article key={item.id} id={item.id} className="research-entry"><div className="research-image" data-fit={item.coverFit || undefined}><Media src={item.image} alt={item.title} label="Image coming soon" /></div><div><span className="status-label" data-status={item.status}>{item.status}</span><h2>{item.title}</h2><p className="research-dates">{researchDates(item)}</p><p className="research-credit">{item.authors.length ? item.authors.map((author, i) => <span key={author}>{i > 0 && ', '}{author === 'Travis Kim' ? <strong>{author}</strong> : author}</span>) : item.credit}</p>{item.description && <p className="research-description">{item.description}</p>}<ResearchFooter note={item.forthcoming && !item.url} links={links} /></div></article>;
-    }) : <Empty className="research-empty"><EmptyTitle>No published research yet.</EmptyTitle></Empty>}</div></TabsContent>;
+    }) : <Empty className="research-empty"><EmptyTitle>No completed research yet.</EmptyTitle></Empty>}</div></TabsContent>;
   })}</Tabs>;
 }

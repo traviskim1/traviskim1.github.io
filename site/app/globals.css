@@ -90,7 +90,6 @@ h3 { font-size: 19px; font-weight: 500; line-height: 1.4; letter-spacing: -.02em
 .research-entry:nth-child(2) .media-placeholder { background: #eeedf5; }.research-entry:nth-child(3) .media-placeholder { background: #f4ede7; }
 .status-label { display: inline-block; color: #535986; background: #edeef7; padding: 2px 9px; border-radius: 3px; font-size: 10px; letter-spacing: .03em; margin-bottom: 10px; }
 .status-label[data-status="Ongoing"] { color: #95522f; background: #f5ece4; }
-.status-label[data-status="Completed"] { color: #326b49; background: #eaf0e7; }
 .research-entry h2 { font-size: 21px; margin: 0 0 5px; }
 .research-dates { font-size: 12px; color: var(--muted-foreground); letter-spacing: .02em; margin: 0 0 9px; }
 .research-credit { font-size: 13px; line-height: 1.7; margin: 0 0 12px; color: #606660; }
@@ -111,7 +110,7 @@ h3 { font-size: 19px; font-weight: 500; line-height: 1.4; letter-spacing: -.02em
 .research-empty { min-height: 270px; border: 1px dashed var(--border); background: #f7f8f4; }
 .research-filter-progress, .category-sewing { --category-color: #C78666; --category-ink: #95522f; --category-tint: #f5ece4; }
 .research-filter-all, .category-photography { --category-color: #479064; --category-ink: #326b49; --category-tint: #eaf0e7; }
-.research-filter-published, .category-fiction { --category-color: #9DA3D7; --category-ink: #64529c; --category-tint: #efedf6; }
+.research-filter-completed, .category-fiction { --category-color: #9DA3D7; --category-ink: #64529c; --category-tint: #efedf6; }
 .category-powerlifting { --category-color: #b7615b; --category-ink: #9a4541; --category-tint: #f5e9e7; }
 .projects-intro { font-size: 17px; margin: 0; line-height: 1.85; }
 .commission-note { margin: 14px 0 0; font-size: 13px; color: var(--muted-foreground); }
