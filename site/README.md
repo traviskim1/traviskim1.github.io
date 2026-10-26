@@ -76,6 +76,7 @@ Set each project's `description`. On powerlifting projects, set `reflections` an
 - Research `start` / `end`: `YYYY-MM` months shown as a date line under the title. Leave `end` empty while the work is ongoing and the range renders open (`January 2026 –`). Entries are ordered by `start`, most recent first, with Completed entries last; entries sharing a month keep their order in the file.
 - Research `links`: extra links shown under an entry, each with `label`, `url`, and `description`. An entry with a `url` opens that destination; an entry with only a `description` shows the text in a hover/click popover instead of navigating. `description` accepts inline `[text](url)` links and `*italics*`.
 - `news[].url`: fill the missing Helicon destinations when available. `news[].linkText` specifies the exact phrase to show in bold accent color and link; the rest of the announcement remains plain text. Missing URLs keep the phrase emphasized but inactive. The supplied news array is displayed in order.
+- `news[].links`: further phrases to link in the same announcement, each `{ "text": ..., "url": ... }`; `text` must appear verbatim in `text`. Leave as `[]` when the main `linkText` is enough.
 - Fiction project `url`: activates its card directly to the literary publication.
 - Fiction project `forthcoming`: `true` makes the story page read "Forthcoming in" instead of "Published in".
 - Navy Selvedge Jeans `videoUrl`: paste a YouTube watch, short, share, or embed URL. Supported URLs become the featured embedded video. The video stays before the gallery.

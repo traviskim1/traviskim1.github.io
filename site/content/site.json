@@ -14,11 +14,30 @@
   "news": [
     {
       "date": "October 2026",
+      "text": "Accepted to BlueDot Impact's AGI Strategy and Technical AI Safety courses.",
+      "url": "",
+      "linkText": "",
+      "hoverText": "",
+      "hoverNote": "",
+      "links": [
+        {
+          "text": "AGI Strategy",
+          "url": "https://bluedot.org/courses/agi-strategy"
+        },
+        {
+          "text": "Technical AI Safety",
+          "url": "https://bluedot.org/courses/technical-ai-safety"
+        }
+      ]
+    },
+    {
+      "date": "October 2026",
       "text": "Accepted as a facilitator at the Mercial AI Safety Initiative for an LLM behavioral evaluation study.",
       "url": "https://mercial.uk/fellowship",
       "linkText": "Mercial AI Safety Initiative",
       "hoverText": "",
-      "hoverNote": ""
+      "hoverNote": "",
+      "links": []
     },
     {
       "date": "September 2026",
@@ -26,7 +45,8 @@
       "url": "https://sparai.org/projects/f26/rec5lzq8haUmA56sY/#mentor-matthew-khoriaty",
       "linkText": "Alignment without Personas",
       "hoverText": "",
-      "hoverNote": ""
+      "hoverNote": "",
+      "links": []
     },
     {
       "date": "July 2026",
@@ -34,7 +54,8 @@
       "url": "https://docs.google.com/document/d/1bTVOOXH_dA5z2c9nflhJ2EqUFR8raLbEyQpHTSd9FLo/edit?usp=sharing",
       "linkText": "sci-fi novella",
       "hoverText": "",
-      "hoverNote": ""
+      "hoverNote": "",
+      "links": []
     },
     {
       "date": "May 2026",
@@ -42,7 +63,8 @@
       "url": "https://docs.google.com/presentation/d/1GfcCJUKYp9LWI8Xo9CU-4FIldnBiT1-X/edit?slide=id.p1#slide=id.p1",
       "linkText": "voice clone detection research",
       "hoverText": "",
-      "hoverNote": ""
+      "hoverNote": "",
+      "links": []
     },
     {
       "date": "May 2026",
@@ -50,7 +72,8 @@
       "url": "/fun-projects/old-delivery/?from=home",
       "linkText": "Old Delivery",
       "hoverText": "",
-      "hoverNote": ""
+      "hoverNote": "",
+      "links": []
     },
     {
       "date": "April 2026",
@@ -58,7 +81,8 @@
       "url": "https://docs.google.com/document/d/1tUb0FEtYWQ2zBUmIeyxIu6D2LbTTg6-7idnqiv6eBlM/edit?usp=sharing",
       "linkText": "voice clone detection study",
       "hoverText": "$4,000",
-      "hoverNote": "Was unable to accept because I was also awarded the SURG."
+      "hoverNote": "Was unable to accept because I was also awarded the SURG.",
+      "links": []
     },
     {
       "date": "April 2026",
@@ -66,7 +90,8 @@
       "url": "https://www.openpowerlifting.org/u/traviskim",
       "linkText": "Powerlifting America Collegiate Nationals",
       "hoverText": "",
-      "hoverNote": ""
+      "hoverNote": "",
+      "links": []
     },
     {
       "date": "March 2026",
@@ -74,7 +99,8 @@
       "url": "https://helicon.northwestern.edu/confetti/",
       "linkText": "Confetti",
       "hoverText": "",
-      "hoverNote": ""
+      "hoverNote": "",
+      "links": []
     }
   ],
   "research": [

@@ -12,12 +12,15 @@ function LinkedBio({ text }: { text: string }) {
     return link ? <a key={index} href={link.url}>{part}</a> : <Fragment key={index}>{part}</Fragment>;
   });
 }
-// A news line can carry two marked phrases: the one that links out, and the one that footnotes itself on hover.
+// A news line can mark phrases: the main one that links out, any further linked phrases, and one that footnotes itself on hover.
 function NewsText({ item }: { item: (typeof site.news)[number] }) {
-  const marks = [item.linkText, item.hoverText].filter(Boolean).map(mark => mark.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
+  const links: { text: string; url: string }[] = item.links;
+  const marks = [item.linkText, ...links.map(link => link.text), item.hoverText].filter(Boolean).map(mark => mark.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
   if (!marks.length) return <>{item.text}</>;
   return <>{item.text.split(new RegExp(`(${marks.join('|')})`, 'g')).map((part, index) => {
     if (part && part === item.linkText) return item.url ? <a key={index} className="news-highlight" href={sitePath(item.url)}><strong>{part}</strong></a> : <strong key={index} className="news-highlight" title="Publication link coming soon">{part}</strong>;
+    const link = part ? links.find(link => link.text === part) : undefined;
+    if (link) return <a key={index} className="news-highlight" href={sitePath(link.url)}><strong>{part}</strong></a>;
     if (part && part === item.hoverText) return <NewsNote key={index} label={part} note={item.hoverNote} />;
     return <Fragment key={index}>{part}</Fragment>;
   })}</>;
