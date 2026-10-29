@@ -71,7 +71,7 @@ Set each project's `description`. On powerlifting projects, set `reflections` an
 - `profiles`: replace the pending entry with objects containing your chosen `label` and `url`.
 - Research `url`: a paper/project destination. The biography's middle `[here]` points at the Research page itself, so it does not wait on any entry being published.
 - Research `status`: exactly `Ongoing` or `Completed`; the Ongoing and Completed filters follow this value.
-- Research `forthcoming`: `true` shows "Publication link forthcoming" under an entry that has no `url` yet; `false` shows nothing in its place.
+- Research `publicationNote`: italic text (e.g. "Paper under review", "Publication link forthcoming") shown under an entry that has no `url` yet; leave it `""` to show nothing in its place.
 - Research `coverFit`: leave empty for logo covers, which sit padded inside a 3/2 grey frame. Set `full` for a wide screenshot: the frame follows the art edge to edge instead of banding it with grey.
 - Research `start` / `end`: `YYYY-MM` months shown as a date line under the title. Leave `end` empty while the work is ongoing and the range renders open (`January 2026 –`). Entries are ordered by `start`, most recent first, with Completed entries last; entries sharing a month keep their order in the file.
 - Research `links`: extra links shown under an entry, each with `label`, `url`, and `description`. An entry with a `url` opens that destination; an entry with only a `description` shows the text in a hover/click popover instead of navigating. `description` accepts inline `[text](url)` links and `*italics*`.

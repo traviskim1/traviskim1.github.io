@@ -12,8 +12,8 @@ function ResearchLink({ link }: { link: ResearchLink }) {
   return link.url ? <a className="small-link" href={link.url} target="_blank" rel="noopener noreferrer">{link.label}{'\u00a0'}<span aria-hidden="true">↗</span></a> : <Popover><PopoverTrigger openOnHover delay={150} closeDelay={200} className="small-link blurb-trigger">{link.label}</PopoverTrigger><PopoverContent side="bottom" align="start" sideOffset={10} className="blurb-popup"><PopoverTitle className="sr-only">{link.label}</PopoverTitle><p><RichText text={link.description} /></p></PopoverContent></Popover>;
 }
 // The note and the links share one wrapping row, separated by dots so they read as one line wherever there is room.
-function ResearchFooter({ note, links }: { note: boolean; links: ResearchLink[] }) {
-  const parts = [...(note ? [<em key="note" className="pending-note">Publication link forthcoming</em>] : []), ...links.map(link => <ResearchLink key={link.label} link={link} />)];
+function ResearchFooter({ note, links }: { note: string; links: ResearchLink[] }) {
+  const parts = [...(note ? [<em key="note" className="pending-note">{note}</em>] : []), ...links.map(link => <ResearchLink key={link.label} link={link} />)];
   return <div className="research-links">{parts.map((part, index) => <Fragment key={index}>{index > 0 && <span className="link-dot" aria-hidden="true">·</span>}{part}</Fragment>)}</div>;
 }
 export default function ResearchList() {
@@ -21,7 +21,7 @@ export default function ResearchList() {
     const items = research.filter(item => status === 'All' || item.status === status);
     return <TabsContent key={status} value={status}><div className="research-list">{items.length ? items.map(item => {
       const links: ResearchLink[] = [...(item.url ? [{ label: item.linkLabel || 'Project description', url: item.url, description: '' }] : []), ...item.links];
-      return <article key={item.id} id={item.id} className="research-entry"><div className="research-image" data-fit={item.coverFit || undefined}><Media src={item.image} alt={item.title} label="Image coming soon" /></div><div><span className="status-label" data-status={item.status}>{item.status}</span><h2>{item.title}</h2><p className="research-dates">{researchDates(item)}</p><p className="research-credit">{item.authors.length ? item.authors.map((author, i) => <span key={author}>{i > 0 && ', '}{author === 'Travis Kim' ? <strong>{author}</strong> : author}</span>) : item.credit}</p>{item.description && <p className="research-description">{item.description}</p>}<ResearchFooter note={item.forthcoming && !item.url} links={links} /></div></article>;
+      return <article key={item.id} id={item.id} className="research-entry"><div className="research-image" data-fit={item.coverFit || undefined}><Media src={item.image} alt={item.title} label="Image coming soon" /></div><div><span className="status-label" data-status={item.status}>{item.status}</span><h2>{item.title}</h2><p className="research-dates">{researchDates(item)}</p><p className="research-credit">{item.authors.length ? item.authors.map((author, i) => <span key={author}>{i > 0 && ', '}{author === 'Travis Kim' ? <strong>{author}</strong> : author}</span>) : item.credit}</p>{item.description && <p className="research-description">{item.description}</p>}<ResearchFooter note={item.url ? '' : item.publicationNote} links={links} /></div></article>;
     }) : <Empty className="research-empty"><EmptyTitle>No completed research yet.</EmptyTitle></Empty>}</div></TabsContent>;
   })}</Tabs>;
 }

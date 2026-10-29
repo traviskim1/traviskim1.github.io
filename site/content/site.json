@@ -77,7 +77,7 @@
     },
     {
       "date": "April 2026",
-      "text": "Received a Cognitive Science Summer Undergraduate Research Fellowship for a voice clone detection study, $4,000.",
+      "text": "Awarded a Cognitive Science Summer Undergraduate Research Fellowship for a voice clone detection study, $4,000.",
       "url": "https://docs.google.com/document/d/1tUb0FEtYWQ2zBUmIeyxIu6D2LbTTg6-7idnqiv6eBlM/edit?usp=sharing",
       "linkText": "voice clone detection study",
       "hoverText": "$4,000",
@@ -135,7 +135,7 @@
           "description": "Abstract: Recent advancements have led to improvements in artificially generated voice clones increasingly indistinguishable from human speech. Motivated by the present and growing threat of AI voice fraud, we seek to determine whether humans can be taught to detect voice clones. In two online studies, human listeners (N = 480) identified whether voices were human or AI-generated (N = 221,776 total decisions). Using a rigorous pre-post design, we examined listener performance before and after brief (~20 minute) feedback-based training. Training successfully improved people’s ability to detect AI voices and improvements generalized to untrained voices. We replicated these effects in a second experiment and investigated the individual differences that predict better AI detection ability. Accounting for other variables, those with better speech categorization consistency – a stable trait-level measure of stability of speech representations – were better at detecting AI and had larger improvements after training. Together, these results reframe AI voice clone detection as a learnable speech-specific expertise."
         }
       ],
-      "forthcoming": true
+      "publicationNote": "Paper under review"
     },
     {
       "id": "ci-sound-quality",
@@ -157,7 +157,7 @@
           "description": "Cochlear implant (CI) patients with one non-CI ear and one-CI ear are uniquely able to match the perceived sound quality from their CI ear by applying filters to the sound perceived in their non-CI ear. This project is in collaboration with Stephen Dennison, Katelyn Berg, and Michael Dorman, expanding on [Dennison et al., 2026](https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2026.1798569/full) to create a more streamlined, intuitive process for CI matching with a software that can run on any web browser. A broader goal of this project is to identify perceptual links between adjectives of sound quality and modifications of acoustic effects and filters."
         }
       ],
-      "forthcoming": false
+      "publicationNote": ""
     },
     {
       "id": "dialectical-activities",
@@ -179,7 +179,7 @@
           "description": "People who have been doing an activity for years find greater value in that activity than beginners because their experience has taught them to engage in that activity in complex and unapparent ways. For example, a painter might deeply appreciate the slightest brush-stroke on the side of a bird, for they have spent many hours painting such brushstrokes, while that same splotch of paint might go unnoticed by a newer painter. On the other hand, beginners are more likely to be exposed to only a few aspects of an activity. This project seeks to support beginners to expansively participate in any activity, finding value not only in the most obvious joys, but in all the little, hidden ones too. The theory of change is a dialectical search process which models and supports the beginner's potential for expansive activity appreciation while challenging their limiting beliefs."
         }
       ],
-      "forthcoming": false
+      "publicationNote": ""
     },
     {
       "id": "alignment-without-personas",
@@ -201,7 +201,7 @@
           "description": "We are building an empirical framework for measuring power (an agent's ability to achieve a wide variety of actions) that holds up across many agentic LLM tasks and environments. The project targets long-horizon misalignment, with the theory of change that reinforcement learning (RL) against swings in impact will lead to a meek, misalignment-avoidant model."
         }
       ],
-      "forthcoming": false
+      "publicationNote": ""
     },
     {
       "id": "blurring-cyborgs",
@@ -217,7 +217,7 @@
       "url": "https://docs.google.com/document/d/1bTVOOXH_dA5z2c9nflhJ2EqUFR8raLbEyQpHTSd9FLo/edit?usp=sharing",
       "linkLabel": "Project proposal",
       "links": [],
-      "forthcoming": false
+      "publicationNote": ""
     },
     {
       "id": "mercial",
@@ -239,7 +239,7 @@
           "description": ""
         }
       ],
-      "forthcoming": false
+      "publicationNote": ""
     }
   ],
   "projects": [
