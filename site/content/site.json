@@ -14,7 +14,7 @@
   "news": [
     {
       "date": "November 2026",
-      "text": "Awarded a BlueDot Rapid Grant ($4,400) for the Mercial AI Safety Initiative project.",
+      "text": "Awarded a BlueDot Rapid Grant ($4,400) for and to facilitate the Mercial AI Safety Initiative project.",
       "url": "",
       "linkText": "",
       "hoverText": "",
@@ -26,7 +26,7 @@
         },
         {
           "text": "Mercial AI Safety Initiative project",
-          "url": "https://docs.google.com/document/d/1GBDyzf3hzxAR5ZJOup512xVwVbu6qJrl/edit"
+          "url": "/research/#mercial"
         }
       ]
     },
