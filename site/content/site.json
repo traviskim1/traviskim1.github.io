@@ -13,6 +13,24 @@
   "cvUrl": "/Travis-Kim-CV.pdf",
   "news": [
     {
+      "date": "November 2026",
+      "text": "Awarded a BlueDot Rapid Grant ($4,400) for the Mercial AI Safety Initiative project.",
+      "url": "",
+      "linkText": "",
+      "hoverText": "",
+      "hoverNote": "",
+      "links": [
+        {
+          "text": "BlueDot Rapid Grant",
+          "url": "https://bluedot.org/grants/rapid"
+        },
+        {
+          "text": "Mercial AI Safety Initiative project",
+          "url": "https://docs.google.com/document/d/1GBDyzf3hzxAR5ZJOup512xVwVbu6qJrl/edit"
+        }
+      ]
+    },
+    {
       "date": "October 2026",
       "text": "Accepted to BlueDot Impact's AGI Strategy and Technical AI Safety courses.",
       "url": "",
