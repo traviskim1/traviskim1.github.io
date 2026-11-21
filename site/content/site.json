@@ -14,6 +14,20 @@
   "news": [
     {
       "date": "November 2026",
+      "text": "Abstract on neural responses to human vs. voice-cloned speech accepted for a poster presentation at the 2027 ARO MidWinter Meeting in San Francisco.",
+      "url": "/research/#voice-clones",
+      "linkText": "neural responses to human vs. voice-cloned speech",
+      "hoverText": "",
+      "hoverNote": "",
+      "links": [
+        {
+          "text": "2027 ARO MidWinter Meeting",
+          "url": "https://aro.org/meetings/midwinter-meeting/"
+        }
+      ]
+    },
+    {
+      "date": "November 2026",
       "text": "Awarded a BlueDot Rapid Grant ($4,400) for and to facilitate the Mercial AI Safety Initiative project.",
       "url": "",
       "linkText": "",
@@ -151,6 +165,11 @@
           "label": "Project description",
           "url": "",
           "description": "Abstract: Recent advancements have led to improvements in artificially generated voice clones increasingly indistinguishable from human speech. Motivated by the present and growing threat of AI voice fraud, we seek to determine whether humans can be taught to detect voice clones. In two online studies, human listeners (N = 480) identified whether voices were human or AI-generated (N = 221,776 total decisions). Using a rigorous pre-post design, we examined listener performance before and after brief (~20 minute) feedback-based training. Training successfully improved people’s ability to detect AI voices and improvements generalized to untrained voices. We replicated these effects in a second experiment and investigated the individual differences that predict better AI detection ability. Accounting for other variables, those with better speech categorization consistency – a stable trait-level measure of stability of speech representations – were better at detecting AI and had larger improvements after training. Together, these results reframe AI voice clone detection as a learnable speech-specific expertise."
+        },
+        {
+          "label": "ARO 2027 poster abstract",
+          "url": "",
+          "description": "*Neural differentiation of human and voice-cloned speech correlates with phonetic categorization consistency and attitudes toward AI.* Zhe-chen Guo, Travis Kim, & Bharath Chandrasekaran. Poster, 2027 ARO MidWinter Meeting, San Francisco, CA. *Background.* With only a few seconds of recorded speech, AI systems can generate voice clones nearly indistinguishable from human speech (Barrington et al., 2025; Groh et al., 2024). Despite their beneficial applications, voice clones are increasingly used for impersonation and fraud, creating an urgent need to understand the ways listeners detect them and the neural basis of detection. Brief perceptual training can improve listeners’ identification of voice clones (Roark et al., in preparation), with greater accuracy and training-related improvement associated with more consistent phonetic categorization in a visual analog scale (VAS) task—a measure predictive of language abilities (Kim et al., 2026). However, it remains unclear whether human and voice-cloned speech elicit distinct neural responses, and whether such differences relate to behavioral detection accuracy, speech perceptual characteristics, or nonlinguistic attributes such as musical ability and attitudes toward AI. *Methods.* Four native speakers of American English were recorded speaking 150 unique IEEE sentences, yielding 600 human speech stimuli. Then, voice cloned versions of each sentence were generated using ElevenLabs v3 (N = 300) or Inworld TTS 1.5 (N = 300), yielding 1,200 stimuli total. Twenty participants listened to these stimuli in random order while electroencephalography (EEG) was recorded using a 64-channel BioSemi ActiveTwo system. After every 30 sentences, participants judged whether the most recent sentence was human or AI-generated. Participants subsequently completed a VAS task measuring the consistency and gradiency of phonetic categorization along a seven-step /ba/-/pa/ continuum, the General Attitudes Toward Artificial Intelligence Scale, and the Mini-Profile of Music Perception Skills. Multivariate temporal response function (TRF) models predicted EEG responses from eight-band gammatone spectrograms and acoustic onset spectrograms. Neural tracking strength was quantified as the Pearson correlation between predicted and observed EEG. *Results.* Overall neural tracking strength did not differ significantly between human and voice-cloned speech. However, voice clones elicited significantly greater TRF amplitudes from 41 to 134 ms. Larger amplitude differences between voice-cloned and human speech correlated with more consistent phonetic categorization (Spearman’s ρ = .46, p = .048) and more positive AI attitudes (Spearman’s ρ = .56, p = .015). No associations were observed with categorization gradiency, identification accuracy, or musical ability. *Conclusions.* Human speech and voice clones elicited distinct neural response profiles. More consistent speech representations and more positive experience with AI may have shaped neural sensitivity to voice clones without clear changes in behavioral identification accuracy. The larger TRF amplitudes may also have contributed to the higher intelligibility of voice clones compared with human speech in recent work (Adank & Wang, 2026). Together, these findings reveal potential neural markers of sensitivity to voice clones and may inform perceptual training strategies tailored to individual differences."
         }
       ],
       "publicationNote": "Paper under review"
@@ -179,7 +198,7 @@
     },
     {
       "id": "dialectical-activities",
-      "title": "Computer Supported Dialectical Activities",
+      "title": "Dialectical Search",
       "status": "Ongoing",
       "start": "2026-09",
       "end": "",
@@ -201,7 +220,7 @@
     },
     {
       "id": "alignment-without-personas",
-      "title": "Alignment Without Personas",
+      "title": "LLM Power Seeking and Impact Measurements Using Information from Future Tasks",
       "status": "Ongoing",
       "start": "2026-09",
       "end": "",
@@ -210,13 +229,13 @@
       "image": "/media/research/alignment-without-personas-8a0cf1b0.webp",
       "coverFit": "",
       "description": "",
-      "url": "https://sparai.org/projects/f26/rec5lzq8haUmA56sY/#mentor-matthew-khoriaty",
-      "linkLabel": "SPAR project page",
+      "url": "https://docs.google.com/document/d/1erDP6flVntpNuT0nTw51RjZNVMph1Qxaj11GW5n2onU/edit?usp=sharing",
+      "linkLabel": "Midterm report",
       "links": [
         {
           "label": "Project description",
           "url": "",
-          "description": "We are building an empirical framework for measuring power (an agent's ability to achieve a wide variety of actions) that holds up across many agentic LLM tasks and environments. The project targets long-horizon misalignment, with the theory of change that reinforcement learning (RL) against swings in impact will lead to a meek, misalignment-avoidant model."
+          "description": "Building an empirical power (ability to achieve a wide variety of actions) measurement framework durable across multiple agentic LLM tasks and environments to address long-horizon misalignment with the theory of change that RL against swings in impact will lead to a meek, misalignment avoidant model."
         }
       ],
       "publicationNote": ""
@@ -239,7 +258,7 @@
     },
     {
       "id": "mercial",
-      "title": "Mercial AI Safety Initiative",
+      "title": "Latent Structure of Agentic Alignment Evals",
       "status": "Ongoing",
       "start": "2026-10",
       "end": "",
